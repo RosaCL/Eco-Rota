@@ -1,28 +1,30 @@
 :root{
-    --cor01: #03401D;
-    --cor02: #3F7355;
-    --cor03: #7ABF49;
-    --cor04: #95D930;
-    --cor05: #F2F2F2; 
+    --cor01: #02381e;
+    --cor02: #6cb445;
+    --cor03: #97e430;
+    --cor04: #c3fb78;
+    --cor05: #48772e; 
+    --cor06: #F2F2F2; 
 
-}
-header{
-    background-color: var(--cor02)
-}
-h1{
-    color: var(--cor05);
-    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.493);
-    font-size: 2em;
-    text-align: center;
 }
 *{
     margin: 0px;
     padding: 0px;
     font-size: 1em;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", system-ui;
     }
   
+    header{
+    background-color: var(--cor02)
+}
+h1{
+    color: var(--cor03);
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.493);
+    font-size: 2em;
+    text-align: center;
+}
+
 html, body{
     width: 100vw;
     height: 100vh;
@@ -40,7 +42,7 @@ menu ul{
     list-style-type: none;
 }
 menu ul li a:hover{
-    background-color: #537c36
+    background-color: var(--cor05)
 }
 main {
     background-color: var(--cor01);
@@ -63,24 +65,24 @@ img {
 footer{
     text-align: center;
     text-decoration: none;
-    color: var(--cor05);
-    background-color: var(--cor02);
+    color: var(--cor06);
+    background-color: var(--cor05)
 }
 footer a{
     text-decoration: none;
-    color: var(--cor05);
+    color: var(--cor03);
 }
 #icone-burguer{
-    background-color: #01200f;
+    background-color:var(--cor01)
     width: 100vw;
     display: block;
-    color: var(--cor05);
+    color: var(--cor06);
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 #icone-burguer:hover{
-    background-color: var(--cor05);
+    background-color: var(--cor06);
     color: black;
 }
 menu{
