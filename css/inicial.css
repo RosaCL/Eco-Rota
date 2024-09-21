@@ -15,11 +15,11 @@
     font-family: "Open Sans", system-ui;
     }
   
-    header{
+header{
     background-color: var(--cor01)
 }
 h1{
-    color: var(--cor03);
+    color: var(--cor06);
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.493);
     font-size: 2em;
     text-align: center;
@@ -44,35 +44,18 @@ menu ul{
 menu ul li a:hover{
     background-color: var(--cor05)
 }
-main {
-    background-color: var(--cor01);
-    width: 90vw;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 10px;
-}
-body{
-   background-color: var(--cor01);
-}
-
-img {
-    display: block;
-    margin: auto;
-}
-
 footer{
     text-align: center;
     text-decoration: none;
     color: var(--cor06);
-    background-color: var(--cor05)
+    background-color: var(--cor05);
 }
 footer a{
     text-decoration: none;
     color: var(--cor03);
 }
 #icone-burguer{
-    background-color:var(--cor01)
+    background-color:var(--cor01);
     width: 100vw;
     display: block;
     color: var(--cor06);
@@ -87,13 +70,12 @@ footer a{
 menu{
     display: none;
 }
-button{
-    
-    background-color: var(--cor04);
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    padding: 10px;    
-    cursor: pointer;
-    float: right;
+.maps{
+    background-color: var(--cor01);
+}
+
+.mapa{    
+    display: block;
+    margin: auto;
+
 }
