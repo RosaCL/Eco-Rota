@@ -5,20 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/ecorota.css">
     <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Eco Rota</title>
 </head>
 <body>
     <header>
-        <h1>Eco Rota</h1>
-        <nav>
-            <a href="#">Favoritos</a>
-            <a href="#">Serviços Especializados</a>
-        </nav>
+        <h1><img src="./img/favicon-32x32.png" alt="">Eco Rota</h1>
+        <span id="icone-burguer" class="material-symbols-outlined" onclick="clickMenu">
+            menu
+            </span>
+        <menu id="itens">
+            <nav>
+                <ul>
+                    <li><a href="#">Favoritos</a></li>
+                    <li><a href="#">Serviços Especializados</a></li>
+                    <li><a href="#">Linhas de coleta</a></li>
+                    <li><a href="#">Parcerias</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+
+                </ul>
+            </nav>
+        </menu>
 
     </header>
     <main>
         <img src="./img/001.png" alt="">
     </main>
+    <footer >
+        
+        <div>
+          © 2024 Copyright:
+          <a class="text-body" href="#">Eco Rota</a>
+        </div>
+        
+      </footer>
     
 </body>
+<script src="./js/ecorota.js"></script>
 </html>
