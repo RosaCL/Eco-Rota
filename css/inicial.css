@@ -34,9 +34,11 @@ header menu nav a{
     text-decoration: none;
     text-align: center;
     background-color: var(--cor02);
-    color: var(--cor05);
-    display: block;
+    color: var(--cor05);   
     border-top: 1px solid var(--cor03);
+}
+menu{
+    display: none;
 }
 menu ul{
     list-style-type: none;
@@ -56,8 +58,7 @@ footer a{
 }
 #icone-burguer{
     background-color:var(--cor01);
-    width: 100vw;
-    display: block;
+    width: 100vw;    
     color: var(--cor06);
     text-align: center;
     padding: 10px;
@@ -66,9 +67,6 @@ footer a{
 #icone-burguer:hover{
     background-color: var(--cor06);
     color: black;
-}
-menu{
-    display: none;
 }
 .maps{
     background-color: var(--cor01);
