@@ -75,11 +75,7 @@ footer a{
     background-color: var(--cor01);
 }
 
-.mapa{    
-    display: block;
-    margin: auto;
 
-}
 .favorito{
     color: var(--cor03);
 }
