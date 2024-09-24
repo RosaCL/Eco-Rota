@@ -79,3 +79,26 @@ footer a{
 .favorito{
     color: var(--cor03);
 }
+.cartao{
+    background: var(--cor04);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+.numero{
+   border-radius: 50px;
+   height: 25px;
+   width: 52px;
+   background-color: var(--cor02);
+   color: var(--cor06);
+   margin: 10px;
+   text-align: center;   
+   
+}
+.saiba{
+    background-color: var(--cor05);
+    color: var(--cor06);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
