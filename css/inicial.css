@@ -33,22 +33,7 @@ html, body{
 body{
     background: var(--cor01);
 }
-header menu nav a{
-    text-decoration: none;
-    text-align: center;
-    background-color: var(--cor02);
-    color: var(--cor05);   
-    border-top: 1px solid var(--cor03);
-}
-menu{
-    display: none;
-}
-menu ul{
-    list-style-type: none;
-}
-menu ul li a:hover{
-    background-color: var(--cor05)
-}
+
 footer{
     text-align: center;
     text-decoration: none;
@@ -59,18 +44,7 @@ footer a{
     text-decoration: none;
     color: var(--cor03);
 }
-#icone-burguer{
-    background-color:var(--cor01);
-    width: 100vw;    
-    color: var(--cor06);
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-#icone-burguer:hover{
-    background-color: var(--cor06);
-    color: black;
-}
+
 .maps{
     background-color: var(--cor01);
 }
