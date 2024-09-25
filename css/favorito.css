@@ -1,0 +1,104 @@
+:root{
+    --cor01: #02381e;
+    --cor02: #6cb445;
+    --cor03: #97e430;
+    --cor04: #c3fb78;
+    --cor05: #48772e; 
+    --cor06: #F2F2F2; 
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    box-sizing: border-box;
+    font-family: "Open Sans", system-ui;
+    }
+  
+
+h1, h2{
+    color: var(--cor03);
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.493);
+    font-size: 2em;
+    text-align: center;
+}
+p{
+    color: var();
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main {
+    background-color: var(--cor01);
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+body{
+   background-color: var(--cor01);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor06);
+    background-color: var(--cor05);
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor03);
+}
+
+.favorito{
+    color: var(--cor03);
+}
+.cartao{
+    background: var(--cor04);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.numero{
+   border-radius: 50px;
+   height: 25px;
+   width: 52px;
+   background-color: var(--cor02);
+   color: var(--cor06);
+   margin: 10px;
+   text-align: center;   
+   
+}
+.saiba{
+    background-color: var(--cor05);
+    color: var(--cor06);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.av{
+    border-radius: 50px;
+   height: 100%;
+   width: 80%;
+   background-color: var(--cor02);
+   color: var(--cor06);
+   margin: 10px;
+   font-size: 40px;
+   text-align: center;   
+}
+.favorito{
+    background-color: var(--cor04);
+    color: var(--cor06);
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.493);
+}
