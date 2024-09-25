@@ -1,0 +1,97 @@
+:root{
+    --cor01: #02381e;
+    --cor02: #6cb445;
+    --cor03: #97e430;
+    --cor04: #c3fb78;
+    --cor05: #48772e; 
+    --cor06: #F2F2F2; 
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    box-sizing: border-box;
+    font-family: "Open Sans", system-ui;
+    }
+  
+
+h1{
+    color: var(--cor06);
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.493);
+    font-size: 2em;
+    text-align: center;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main {
+    background-color: var(--cor04);
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+body{
+   background-color: var(--cor01);
+}
+
+
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor06);
+    background-color: var(--cor05);
+   
+    
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor03);
+}
+
+.botao{
+    background-color: var(--cor01);
+    color: var(--cor06);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+.local{
+    background-color: var(--cor01);
+    color: var(--cor06);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.endereco{
+    background-color: var(--cor02);
+    color: var(--cor06);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    
+    text-align: center;
+}
+.ponto{
+    background-color: var(--cor02);
+    color: var(--cor06);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    
+    text-align: center;
+}
+.mapa{
+    display: block;
+    margin: auto;
+}
