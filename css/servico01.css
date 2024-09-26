@@ -48,6 +48,8 @@ footer{
     text-decoration: none;
     color: var(--cor06);
     background-color: var(--cor05);
+    position: relative;
+    bottom: -50%;
    
     
 }

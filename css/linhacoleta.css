@@ -44,16 +44,14 @@ body{
    background-color: var(--cor01);
 }
 
-img {
-    display: block;
-    margin: auto;
-}
 
 footer{
     text-align: center;
     text-decoration: none;
     color: var(--cor06);
     background-color: var(--cor05);
+    position: relative;
+    bottom: -50%;
 }
 footer a{
     text-decoration: none;
