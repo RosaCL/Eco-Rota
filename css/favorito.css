@@ -66,15 +66,14 @@ footer a{
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    text-align: ce;
+    text-align: center;
 }
 .numero{
    border-radius: 50px;
    height: 25px;
    width: 52px;
    background-color: var(--cor02);
-   color: var(--cor06);
-   /* margin: 10px; */
+   color: var(--cor06);   
    text-align: center;   
    
 }
