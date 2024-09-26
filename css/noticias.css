@@ -85,6 +85,15 @@ footer a{
     text-align: center;
 }
 .ponto{
+    background-color: var(--cor02);
+    color: var(--cor06);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    
+    text-align: center;
+}
+.news{
     background-color: var(--cor05);
     color: var(--cor06);
     border-radius: 20px;
@@ -94,7 +103,7 @@ footer a{
     text-align: center;
 }
 
-a{
+.news >a{
     text-decoration: none;
     color: var(--cor03);
     
