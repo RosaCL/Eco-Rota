@@ -66,6 +66,7 @@ footer a{
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
+    text-align: ce;
 }
 .numero{
    border-radius: 50px;
@@ -77,13 +78,7 @@ footer a{
    text-align: center;   
    
 }
-.saiba{
-    background-color: var(--cor05);
-    color: var(--cor06);
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-}
+
 .av{
     border-radius: 50px;
    height: 100%;
@@ -98,4 +93,8 @@ footer a{
     background-color: var(--cor04);
     color: var(--cor06);
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.493);
+}
+.programadas{
+    
+
 }
