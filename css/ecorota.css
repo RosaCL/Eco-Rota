@@ -30,20 +30,7 @@ html, body{
     height: 100vh;
 
 }
-header menu nav a{
-    text-decoration: none;
-    text-align: center;
-    background-color: var(--cor02);
-    color: var(--cor05);
-    
-    border-top: 1px solid var(--cor03);
-}
-menu ul{
-    list-style-type: none;
-}
-menu ul li a:hover{
-    background-color: var(--cor05)
-}
+
 main {
     background-color: var(--cor01);
     width: 90vw;
@@ -56,16 +43,15 @@ body{
    background-color: var(--cor01);
 }
 
-img {
-    display: block;
-    margin: auto;
-}
 
 footer{
     text-align: center;
     text-decoration: none;
     color: var(--cor06);
     background-color: var(--cor05);
+    position: relative;
+    bottom: -100vh;
+   
 }
 footer a{
     text-decoration: none;

@@ -48,7 +48,8 @@ footer{
     text-decoration: none;
     color: var(--cor06);
     background-color: var(--cor05);
-   
+    position: relative;
+    bottom: -100vh;
     
 }
 footer a{
@@ -90,8 +91,4 @@ footer a{
     padding: 10px;
     
     text-align: center;
-}
-.mapa{
-    display: block;
-    margin: auto;
 }

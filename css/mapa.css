@@ -37,6 +37,8 @@ footer{
     text-decoration: none;
     color: var(--cor06);
     background-color: var(--cor05);
+    position: relative;
+    bottom: -100vh;
 }
 footer a{
     text-decoration: none;
@@ -45,11 +47,8 @@ footer a{
 
 
 
-.mapa{    
-    display: block;
-    margin: auto;
 
-}
 .favorito{
     color: var(--cor03);
 }
+
