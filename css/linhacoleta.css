@@ -41,7 +41,9 @@ main {
 body{
    background-color: var(--cor01);
 }
-
+.line{
+    border-bottom: 2px solid #000;
+}
 
 footer{
     text-align: center;
